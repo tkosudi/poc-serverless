@@ -1,0 +1,1 @@
+{"version":3,"file":"firstFunction.js","sourceRoot":"","sources":["../../src/firstFunction.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAEO,IAAM,aAAa,GAAG,UAAO,KAA2B;;QAC7D,sBAAO;gBACL,UAAU,EAAE,GAAG;gBACf,IAAI,EAAE,IAAI,CAAC,SAAS,CAAC;oBACnB,OAAO,EAAE,kBAAkB;oBAC3B,KAAK,EAAE,KAAK;iBACb,CAAC;aACH,EAAA;;KACF,CAAA;AARY,QAAA,aAAa,iBAQzB"}

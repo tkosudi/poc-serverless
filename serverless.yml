@@ -7,7 +7,7 @@ provider:
 
 functions: 
   firstFunction:
-    handler: src/firsFunction.handler
+    handler: src/firstFunction.handler
     events: 
       - httpApi: 
           path: /first
@@ -16,4 +16,3 @@ functions:
 plugins:
   - serverless-offline
   - serverless-plugin-typescript
-```
