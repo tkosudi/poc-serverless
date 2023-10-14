@@ -1,0 +1,19 @@
+app: serverless-first-functions
+service: serverless-project-name
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions: 
+  firstFunction:
+    handler: src/firsFunction.handler
+    events: 
+      - httpApi: 
+          path: /first
+          method: get
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript
+```
