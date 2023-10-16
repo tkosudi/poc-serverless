@@ -6,19 +6,19 @@ provider:
   runtime: nodejs18.x
 
 functions: 
-  firstFunction:
-    handler: src/firstFunction.handler
-    events: 
-      - httpApi: 
-          path: /first
-          method: get
-
   create-user:
     handler: src/create-user.handler
     events: 
       - httpApi: 
           path: /users
           method: post
+
+  fetch-users:
+    handler: src/fetch-users.handler
+    events: 
+      - httpApi: 
+          path: /users
+          method: get
 
 plugins:
   - serverless-offline
