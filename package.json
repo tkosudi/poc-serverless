@@ -15,5 +15,9 @@
     "serverless-offline": "^13.2.0",
     "serverless-plugin-typescript": "^2.1.5",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.4.2",
+    "prisma": "^5.4.2"
   }
 }
